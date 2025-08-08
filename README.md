@@ -1,39 +1,40 @@
-_This document is intended to be a template for working groups established by the TAC, to be used as the README.md file in its repository. All items in italics are descriptions of what context should be there; it is intended to be replaced by content. It is modeled off the [CNCF Serverless WG](https://github.com/cncf/wg-serverless)._
 
-_The intention is that each WG has its own GitHub repo under the [Open Mainframe Project organization](https://github.com/openmainframeproject)._
+# _SBOM for z/OS Applications_
 
-# _Working group name_
-
-_Describe the purpose of the group in no more that 4-5 sentences._
-
-_Goals are the distinct outcomes that is to be anticipated from the working group, serving as a method for validating activities._
+To refine and adapt industry standard SBOMs to cater to traditional z/OS applications primarily - COBOL, PL/I, HLASM and mixed language applications. 
 
 Goals of the WG are:
 
-1. _goal 1_
-2. ...
+1. _Review existing industry standard SBOM definitions and formats (including SPDX implementation at Telco)
+2. _Work with SPDX and CycloneDX to identify attributes and fields pertaining to z/OS Applications. Work with the communities to add them to the appropriate profiles. 
+3. _Identify SBOM attributes and specifications for Build and Deploy of traditional z/OS applications that follow an incremental build and deploy processes – with the ability to extend to full application builds and deploy for packaged application products
+4. _Validate and review identified standards across at least 10 different mainframe enterprises
 
-_Non-goals are things that the working group are intentionally choosing not to do, the things not expected to change due to the working groups efforts, or the subject matter areas that the working groups doesn’t want to address at this time. _
 
 Non-goals of the WG are:
 
-1. _non goal 1_
-2. ...
+1. _This workgroup will only define the formats and if necessary, validation libraries for the formats. It will not include tooling to create SBOMs
+2. Prioritization of individual SBOM delivery timelines across vendors
+3. SBOMs for pure-java, python, NodeJS applications running on z/OS. There exists tooling frameworks and libraries for these technologies. This workgroup will align and ensure consistency across applications
 
 The TAC member sponsor of this working group is _TAC sponsor name_
 
 ## Deliverables
 
-_provide a list of planned deliverables, or links to the deliverables. A best practice is to have a directory named [deliverables](deliverables) in the repo for hosting and managing deliverables._
+1. Published Github pages with 
+    - Introduction to SBOMs for z/OS applications
+    - Guidelines on generating SBOMs from build and deploy
+    - Identified attributes as necessary for z/OS applications
+2. Common packages to validate generated SBOMs
+
 
 ## Communication
 
 This WG communicates on the following channels:
 
 - _link to mailing list_
-- _slack channel_
-- _any other channels_
-...
+- _#wg-sbom 
+ 
 
 ## Meetings
 
