@@ -6,8 +6,8 @@ To refine and adapt industry standard SBOMs to cater to traditional z/OS applica
 Goals of the WG are:
 
 1. _Review existing industry standard SBOM definitions and formats (including SPDX implementation at Telco)
-2. _Work with SPDX and CycloneDX to identify attributes and fields pertaining to z/OS Applications. Work with the communities to add them to the appropriate profiles. 
-3. _Identify SBOM attributes and specifications for Build and Deploy of traditional z/OS applications that follow an incremental build and deploy processes – with the ability to extend to full application builds and deploy for packaged application products
+2. _Work with SPDX and CycloneDX to identify attributes and fields pertaining to z/OS Applications. Work with the communities to add them to the appropriate profiles. Identify minimum attributes based on published guidelines
+3. _Identify SBOM attributes and specifications for Source, Build and Deploy of traditional z/OS applications that follow an incremental build and deploy processes – with the ability to extend to full application builds and deploy for packaged application products
 4. _Validate and review identified standards across at least 10 different mainframe enterprises
 
 
