@@ -23,7 +23,7 @@ The TAC member sponsor of this working group is _TAC sponsor name_
 
 1. Published Github pages with 
     - Introduction to SBOMs for z/OS applications
-    - Guidelines on generating SBOMs from build and deploy
+    - Guidelines on generating SBOMs from build, deploy and for runtime
     - Identified attributes as necessary for z/OS applications
 2. Common packages to validate generated SBOMs
 
