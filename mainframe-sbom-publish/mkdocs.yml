@@ -1,0 +1,19 @@
+site_name: SBOM for Mainframe Applications
+site_description: A Software Bill of Materials (SBOM) for Mainframe Applications
+site_url: https://mainframe-sbom.github.io/
+nav:
+  - Home: index.md
+  - Introduction: 
+      - Software Bill of Materials: introduction.md
+      - SBOM formats and required attributes: sbom-standards.md
+  - Mainframe Applications: 
+      - Why a separate set of guidelines is needed: challenges.md 
+      - SBOMs for Mainframe Applications: sbom-mainframe.md
+  - Guidelines for SBOM generation: 
+      - Build SBOMs: build-sbom.md
+      - Runtime SBOMs: runtime-sbom.md
+  - SBOM management and maintenance: 
+      - Best Practices for SBOM management: sbom-management.md
+      - Automation: tools.md
+  - Resources: resources.md
+theme: readthedocs
