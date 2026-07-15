@@ -1,4 +1,4 @@
-# Welcome to the Opem Mainframe Project - SBOM for Mainframe Applications
+# Welcome to the Open Mainframe Project - SBOM for Mainframe Applications
  
 
 The primary purpose of this project is to refine and adapt industry standard SBOMs to cater to traditional z/OS applications primarily - COBOL, PL/I, HLASM and mixed language applications.
