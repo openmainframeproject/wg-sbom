@@ -1,6 +1,6 @@
 # Introduction
 
-#### Thank you for considering contributing to SBOM Working Group. We are aiming to wade through the world of Software Bill of Material mandates and formats and identify the right set applicable to Enterprise z/OS applications. We need more people like you to make a difference here. The following sections describe where you can contribute and how
+#### Thank you for considering contributing to SBOM Working Group. We are aiming to wade through the world of Software Bill of Material mandates and formats and identify the right set applicable to Enterprise z/OS applications. We need more people like you to make a difference here. The following sections describe where you can contribute and how.
 
 
 ### Where can you contribute
@@ -45,10 +45,11 @@ http://www.firsttimersonly.com/
 ## How to report a bug
 Raise an issue and fill in the details within the automated template. Make sure to assign appropriate tags - Bug, Enhancement, New Feature
 
+## Commit Rules
+ Always include Signed-off-by: Author Name <authoremail@example.com> in every commit message. You can also do this automatically by using the -s flag (i.e., git commit -s).
 
 ## Code/Github pages review process
 Since the main outcome of this project is a set of github pages that provide guidance on establishing SBOMs for mainframe applications, the review process involves going through the different sections of the github pages, especially the examples in depth and ensuring that it aligns to both mainframe applications as well as general SBOM (SPDX) rules. Any review comments must be raised against the pull request with detailed comments. 
-
 
 
 # Community
